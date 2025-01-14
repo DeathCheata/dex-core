@@ -643,7 +643,7 @@ let fetchDatainterval = setInterval(function() {
         return
     }
     clearInterval(fetchDatainterval);
-    log(window);
+    console.log(window);
     fetchData(searchParams)
     //if(window === window.parent && /deathcheata/i.test(window.location.href)){
     /*if(window === window.parent){
