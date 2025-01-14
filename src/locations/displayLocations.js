@@ -148,7 +148,7 @@ function returnMethodTableThead(method, time){
     const row = document.createElement("tr"); row.classList = "methodTableTheadRow"
 
     const spriteContainer = document.createElement("th")
-    const sprite = document.createElement("img"); sprite.src = `https://raw.githubusercontent.com/ydarissep/dex-core/main/sprites/${returnMethodSprite(method).replaceAll(" ", "_")}.png`; sprite.classList = "locationSprite"
+    const sprite = document.createElement("img"); sprite.src = `https://raw.githubusercontent.com/deathcheata/dex-core/main/sprites/${returnMethodSprite(method).replaceAll(" ", "_")}.png`; sprite.classList = "locationSprite"
     spriteContainer.append(sprite)
     row.append(spriteContainer)
 

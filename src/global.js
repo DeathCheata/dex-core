@@ -644,7 +644,7 @@ let fetchDatainterval = setInterval(function() {
     }
     clearInterval(fetchDatainterval);
 
-    if(window === window.parent && /ydarissep/i.test(window.location.href)){
+    if(window === window.parent && /deathcheata/i.test(window.location.href)){
         fetchData(searchParams)
     }
     else{
