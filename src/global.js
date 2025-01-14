@@ -643,12 +643,12 @@ let fetchDatainterval = setInterval(function() {
         return
     }
     clearInterval(fetchDatainterval);
-
+    fetchData(searchParams)
     //if(window === window.parent && /deathcheata/i.test(window.location.href)){
-    if(window === window.parent){
+    /*if(window === window.parent){
         fetchData(searchParams)
     }
     else{
         footerP(`For the best experience, please visit ${window.location.href}`)
-    }
+    }*/
 }, 100)  
